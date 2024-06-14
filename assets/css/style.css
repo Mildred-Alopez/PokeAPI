@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.centrar-picture {
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 190px;
+}
+
+.caja-cartas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fondo-cartas {
+    background-image: url(./img/ilustracion.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.letras-colorFondo {
+    background-color: #2e509079;
+    border-radius: 20px;
+
+}
+
+.mover-selector {
+    margin-left: 25%;
+    margin-bottom: 5%;
+    outline: none;
+    border: none;
+    background-color: #daae51;
+
+}
+
+.mensaje {
+    text-align: center;
+    color: slateblue;
+}
+
+.pikachu-pokemon {
+    margin-top: 20%;
+    margin-left: -10%;
+
+}
+
+.ash {
+    margin-left: 9%;
+    margin-top: -12%;
+    margin-bottom: 5%;
+}
+
+.pokemons {
+    margin-top: -15%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}

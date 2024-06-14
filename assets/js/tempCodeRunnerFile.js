@@ -1,0 +1,1 @@
+btnNumero.forEach((Elemento) => (Elemento))
